@@ -3,10 +3,9 @@ from pprint import pprint
 #use pprint instead of print to clearly print output documents
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure,OperationFailure
-ID='201701***'
-# enter your id here.
-host='localhost'
-client=MongoClient('mongodb://'+ID+':'+ID+'@'+host+':27017/?authSource='+ID+'&readPreference=primary&ssl=false')
+connectionString=''
+#enter your connection String here
+client=MongoClient(connectionString)
 
 try:
     client.admin.command('ismaster')
@@ -22,3 +21,5 @@ else:
     print('connected to database')
     # write your code here
     
+finally:
+	client.close()
