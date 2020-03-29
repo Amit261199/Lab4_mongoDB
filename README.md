@@ -35,17 +35,19 @@ Your Directory Tree
 |     ├── Exercise-3.pdf
 │     └── soln
 |          └── ex3.txt
-└── exercise-4
-      ├── Exercise-4.pdf
-      └── soln
-           ├── ex4_q1.py
-           ├── ex4_q2.py
-           ├── ex4_q3.py
-           ├── ex4_q4.txt
-           └── ex4_q5.py
+├── exercise-4
+|     ├── Exercise-4.pdf
+|     └── soln
+|          ├── ex4_q1.py
+|          ├── ex4_q2.py
+|          ├── ex4_q3.py
+|          ├── ex4_q4.txt
+|          └── ex4_q5.py
+└── MongoDB Setup.pdf
+
 ```
 ### Instructions
-Clone this repository on your machine to get started. There are four exercises in this lab. The solution files are placed in `soln/` folder placed in each exercise folder. Write your answers in those files only. Data files for all exercises are placed in the `data/` folder. You are required to submit all the solution files in compressed form as `<id>_Lab04.zip`. All other instructions are conveyed to you in the exercises.
+Clone this repository on your machine to get started. There are four exercises in this lab. The solution files are placed in `soln/` folder placed in each exercise folder. Write your answers in those files only. Data files for all exercises are placed in the `data/` folder. You are required to submit all the solution files in compressed form as `<id>_Lab04.zip`. PLease install mongoDB on your device before starting the lab. Instructions are given in MongoDB Setup.pdf. All other instructions are conveyed to you in the exercises.
 
 contributions:
 
