@@ -48,6 +48,9 @@ Your Directory Tree
 Clone this repository on your machine to get started. There are four exercises in this lab. The solution files are placed in `soln/` folder placed in each exercise folder. Write your answers in those files only. Data files for all exercises are placed in the `data/` folder. You are required to submit all the solution files in compressed form as `<id>_Lab04.zip`. All other instructions are conveyed to you in the exercises.
 
 contributions:
+
 Exercise 1-2: Amit Agarwal 201701060
+
 Exercise 3: Rhythm Patel 201701273
+
 Exercise 4: Smit Jasani 201701020
