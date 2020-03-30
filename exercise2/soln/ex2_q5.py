@@ -9,7 +9,6 @@ client=MongoClient(connectionString)
 
 try:
     client.admin.command('ismaster')
-    db=client['admin']
 
 except ConnectionFailure:
     print('Server not available')
